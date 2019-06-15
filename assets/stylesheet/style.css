@@ -1,0 +1,176 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*My css*/
+* {
+	box-sizing: border-box;
+}
+html {
+	font-family: 'Poppins', sans-serif;
+	font-size: 15px;
+	line-height: 1.5;
+}
+body{
+	line-height: 1.5;
+}
+/*background*/
+body{
+	background-image: url("../media/pic10.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+a{
+	text-decoration: none;
+	display: inline-block;
+}
+img{
+	font-size: 0;
+	vertical-align: top;
+	max-width: 100%
+}
+/*Wrapper*/
+.wrapper {
+  max-width: 1300px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+/*header*/
+
+.flex{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+
+}
+.flex a {
+	display: flex;
+}
+.navbar{
+	justify-content: center;
+}
+.logo a{
+	color: #CBCACA;
+	font-size: 4rem;
+	font-weight: 800;
+	padding-top: 3rem;
+}
+.head2{
+	color: #CBCACA;
+	text-align: center;
+	font-weight: 400;
+}
+/*main*/
+
+.img01{
+	width: 100%;
+}
+.section-container{
+	background-color: #fff;
+	flex-direction: column;
+	align-items: center;
+
+}
+.section-heading{
+	font-size: 1.2rem;
+	font-weight: 900;
+	padding-top: 2rem;
+}
+hr{
+	margin: 0 auto;
+	width: 10%;
+	border: 0.5px solid #CBCACA;
+}
+.section1-content{
+	background-color: #fff;
+	font-size: 0.5rem;
+	color: #ACAAAA;
+	padding-bottom: 1rem;
+}
+.section1-content2{
+	background-color: #DBDBDB;
+	font-size: 0.5rem;
+	color: #ACAAAA;
+	padding: 1rem;
+}
+.section2{
+	background-color: #000;
+}
+
+.section2-heading{
+	background-color: #000;
+	color: #fff;
+	font-size: 1rem;
+	font-weight: 900;
+	padding-top: 2rem;
+	text-align: center;
+}
+.section2-content{
+	background-color: #000;
+	font-size: 0.5rem;
+	color: #fff;
+	padding: 1rem;
+	text-align: center;
+}
+.half{
+	width: 50%;
+	min-width: 180px;
+}
+.col{
+	text-align: center;
+	color: #DBDBDB;
+	padding: 1rem;
+}
+.copy{
+	margin: 0 auto;
+	font-size: 0.3rem;
+	color: #DBDBDB
+}
+.wrap{
+	flex-wrap: wrap;
+}
